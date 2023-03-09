@@ -70,3 +70,17 @@
                     else if (year == 2030 && month ==  11 ){return  "Winter Solstice : December 21st";}
                     else {return "Meteor Shower this Month!";}
                 }
+
+                function planetType(){
+                  if((planetnews()).includes("Solstice")||(planetnews()).includes("Equinox")){return "Sun";}
+                  else if((planetnews()).includes("Meteor")||(planetnews()).includes("Shower")){return "Shower";}
+                  else if((planetnews()).includes("Mercury")){return "Mercury";}
+                  else if((planetnews()).includes("Venus")){return "Venus";}
+                  else if((planetnews()).includes("Mars")){return "Mars";}
+                  else if((planetnews()).includes("Jupiter")){return "Jupiter";}
+                  else if((planetnews()).includes("Saturn")){return "Saturn";}
+                  else if((planetnews()).includes("Uranus")){return "Uranus";}
+                  else if((planetnews()).includes("Neptune")){return "Neptune";}
+                  else if((planetnews()).includes("Pluto")){return "Pluto";}
+                  else{return "Shower";}
+                }
