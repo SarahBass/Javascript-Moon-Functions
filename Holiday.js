@@ -31,6 +31,14 @@ function Holiday(){
                  else if(month == 3 && day == 21 && year == 2030  ){return "Happy Easter!";}
                  else if(month == 3 && day == 13 && year == 2031  ){return "Happy Easter!";}
                  else if(month == 2 && day == 28 && year == 2032  ){return "Happy Easter!";}
+                 else if(month == 9 && day == 31 ){return "Happy Halloween!";}
+                 else if(month == 11 && day == 25 ){return "Merry Christmas!";}
+                 else if(month == 11 && day == 24 ){return "Merry Christmas Eve!";}
+                 else if(month == 11 && day == 31 ){return "Happy New Year's Eve!";}
+                 else if(month == 0 && day == 1 ){return "Happy New Year!";}
+                 else if(month == 6 && day == 4 ){return "Happy Fourth of July!";}
+                 else if(month == 5 && day == 4 ){return "May the 4th be with you!";}
+                 else if(month == 3 && day == 17 ){return "Happy St. Patrick's Day!";}
       
  
     else {return  " "  ;}
