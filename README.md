@@ -17,3 +17,5 @@ Farmer's Almanac Moon
 Horoscope/Zodiac
 
 Moon Phase Calculator
+
+Major Holidays 2022-2030
