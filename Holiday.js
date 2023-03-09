@@ -20,6 +20,18 @@ function Holiday(){
       else if (month==  0  && day ==  26 && year ==  2028 ){return "Happy Lunar New Year!";}
       else if (month==  1  && day ==  13 && year ==  2029 ){return "Happy Lunar New Year!";}
       else if (month==  1  && day == 2   && year ==  2030 ){return "Happy Lunar New Year!";}
+                 else if(month == 3 && day == 17 && year == 2022  ){return "Happy Easter!";}
+                 else if(month == 3 && day == 9 && year == 2023  ){return "Happy Easter!";}
+                 else if(month == 2 && day == 31 && year == 2024  ){return "Happy Easter!";}
+                 else if(month == 3 && day == 20 && year == 2025  ){return "Happy Easter!";}
+                 else if(month == 3 && day == 5 && year == 2026  ){return "Happy Easter!";}
+                 else if(month == 2 && day == 28 && year == 2027  ){return "Happy Easter!";}
+                 else if(month == 3 && day == 16 && year == 2028  ){return "Happy Easter!";}
+                 else if(month == 3 && day == 1 && year == 2029  ){return "Happy Easter!";}
+                 else if(month == 3 && day == 21 && year == 2030  ){return "Happy Easter!";}
+                 else if(month == 3 && day == 13 && year == 2031  ){return "Happy Easter!";}
+                 else if(month == 2 && day == 28 && year == 2032  ){return "Happy Easter!";}
+      
  
     else {return  " "  ;}
 }
