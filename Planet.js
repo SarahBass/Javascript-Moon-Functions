@@ -1,3 +1,5 @@
+                    
+                    function planetnews(){
                     if (year == 2022 && month ==  0 ){return  "Mercury Visible at Sunset until 30th";}
                     else if (year == 2022 && month ==  1 ){return  "Venus Brightest on February 9";}
                     else if (year == 2022 && month ==  2 ){return  "Spring Equinox on March 20th";}
@@ -66,3 +68,5 @@
                     else if (year == 2030 && month ==  5 ){return  "Summer Solstice June 21st";}
                     else if (year == 2030 && month ==  8 ){return  "Fall Equinox: September 22nd";}
                     else if (year == 2030 && month ==  11 ){return  "Winter Solstice : December 21st";}
+                    else {return "Meteor Shower this Month!";}
+                }
